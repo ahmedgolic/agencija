@@ -1,0 +1,77 @@
+/* TEXT STYLE OR TEXT COLORS */
+
+/* BUTTON */
+
+.btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn-2 {
+    color: #28a745;
+    border-radius: 6px;
+    font-weight: bold;
+    background: #f4f4f4;
+    font-size: 18px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn-dark {
+    background: #333;
+    color: white;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* FLEX COLUMNS */
+
+
+.flex-columns .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.flex-columns img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.flex-columns .column-2 {
+    background: #28a745;
+    color: #f4f4f4;
+    padding: 70px;
+}
+
+.flex-columns .column-2 h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.flex-columns .column-2 p {
+    font-size: 18px;
+}
+
+
+/* FOOTER */
+
+.footer .social i {
+    color: #f4f4f4;
+}
+
+.flex-columns .form-group {
+    padding: 20px;
+}
+
+
