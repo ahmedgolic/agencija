@@ -50,67 +50,82 @@
         </div>
     </header>
 
-    <div id="system-of-value">
-        <div class="system-of-value-content">
 
-            <div class="flex-items">
-                <div>
+    <div id="system-of-value">
+        <div class="row text-center p-5">
+                <div class="col-md-4 col-sm-12">
                     <i class="fa-solid fa-phone fa-3x"></i>
-                <p>Mob: +38761-792-066
-                </p>
+                <p>Mob: +38761-792-066</p>
                 </div>
                 
-            <div>
-                <i class="fa-solid fa-location-dot fa-3x"></i>
-                <p>Adresa: Lovacka 1/1, Visoko</p>
+                <div class="col-md-4 col-sm-12">
+                    <i class="fa-solid fa-location-dot fa-3x"></i>
+                    <p>Adresa: Lovacka 1/1, Visoko</p>
             </div>
-            <div>
+            <div class="col-md-4 col-sm-12">
                 <i class="fa-solid fa-envelope fa-3x"></i>
                 <p>E-mail:agencija.justice@gmail.com</p>
             </div>
         </div>
-        </div>
     </div>
 
 
-    <section class="solutions flex-columns" >
+    <section class="solutions" >
         <div class="row">
-                <div class="column-1a">
-                    <img src="/img/home/contact.jpg" alt="">
+                <div class="col-md-6 col-sm-8 p-0">
+                    <img class="img-fluid" src="/img/home/contact.jpg" walt="">
                 </div>
                 
-                <div class="column-2">
-                    <div class="form-group">
-                        <h3>Kontaktirajte nas putem E-maila:</h3>
+                <div class="col-md-6 col-sm-4 p-2  bg-success text-white">
+                        <h4 class="px-3">Kontaktirajte nas putem E-maila:</h4>
+                        <div class="form-group px-3">
                         <label for="name"></label>
-                        <input type="name" placeholder="Ime">
-                        <label for="surname"></label>
-                       <input type="surname" placeholder="Prezime">
-                        <label for="email"></label>
-                        <input type="email" placeholder="Email">
-                        <textarea name="message" id="" cols="30" rows="10"></textarea>
-                        <button>Pošalji</button>
-                </div>
+                        <input class="form-control" type="name" placeholder="Ime">
+                        </div>
+                        <div class="form-group px-3">
+                            <label for="surname"></label>
+                        <input class="form-control" type="surname" placeholder="Prezime">
+                        </div>
+
+                        <div class="form-group px-3">
+                            <label for="email"></label>
+                        <input class="form-control" type="email" placeholder="Email">
+                        </div>
+                        
+                        <div class="form-group px-3">
+                            <label for="message"></label>
+                            <textarea class="form-control" placeholder="Poruka" id="message" rows="3"></textarea>
+                        </div>
                 </div>
   
         </div>
     </section>
 
+     <!-- Footer -->
 
-
-    
-
-    <footer class="footer bg-dark">
-        <div class="social">
-            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+    <footer class="row text-center bg-dark text-white pb-o m-0 pt-2">
+        <div class="col-sm-12">
+            <a href="#"><i class="fab fa-facebook fa-2x text-white"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x text-white pl-2"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x text-white pl-2"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x text-white pl-2"></i></a>
         </div>
 
-        <p class="text-white pt-2">Copyright &copy; 2022 Agencija Justice</p>
+        <div class="col-sm-12">
 
+        <p class="pt-2">Copyright &copy; 2022 Agencija Justice</p>
+
+        </div>
     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+    
 
     
 </body>
